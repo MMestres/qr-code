@@ -1,0 +1,31 @@
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+@keyframes fade-out-up {
+  0% {
+    opacity: 1;
+    height: auto;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+  }
+}
+
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: auto;
+  }
+}
