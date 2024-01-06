@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
-  color: #213547;
-  background-color: #ffffff;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
-  }
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 }
 
 body {
